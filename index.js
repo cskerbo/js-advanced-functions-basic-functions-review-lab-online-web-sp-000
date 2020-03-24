@@ -20,10 +20,8 @@ let Calculator = {
   }
 
 function actionApplyer(startingInteger, array) {
-    if (!array) {
-      return startingInteger
-    }
-    else {
-      return 4
-    }
+    array.forEach(func => {
+      startingInteger = func(startingInteger)
+    })
+    return startingInteger
 }
