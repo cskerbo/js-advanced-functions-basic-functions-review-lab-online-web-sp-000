@@ -11,3 +11,9 @@ function wrapAdjective(character="*") {
     return "You are " + character + message + character + "!"
   }
 }
+
+let calculator = {
+  function add() {
+    return 1 + 3
+  }
+}
