@@ -15,4 +15,3 @@ function wrapAdjective(character="*") {
 let Calculator = {
 
   }
-}
