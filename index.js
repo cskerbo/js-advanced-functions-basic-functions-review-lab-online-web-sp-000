@@ -13,5 +13,6 @@ function wrapAdjective(character="*") {
 }
 
 let Calculator = {
-  add(){return 1 + 3}
+  add(){return 1 + 3},
+  subtract(){return 1 - 3}
   }
