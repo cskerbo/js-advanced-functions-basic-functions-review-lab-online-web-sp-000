@@ -1,4 +1,4 @@
-function saturdayFun(... = 'roller-skate') {
+function saturdayFun(...='roller-skate') {
   return 'This Saturday, I want to ' `${...}` '!'
 
 }
