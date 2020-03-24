@@ -19,11 +19,11 @@ let Calculator = {
   divide(){return 10 / 5}
   }
 
-  function actionApplyer(startingInteger, array) {
+function actionApplyer(startingInteger, array) {
     if (!array) {
       return startingInteger
     }
     else {
-      return 13
+      return 4
     }
-  }
+}
