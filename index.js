@@ -18,3 +18,7 @@ let Calculator = {
   multiply(){return 1 * 3},
   divide(){return 10 / 5}
   }
+
+  function actionApplyer() {
+
+  }
